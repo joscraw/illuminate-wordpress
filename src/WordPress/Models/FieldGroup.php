@@ -13,9 +13,7 @@ class FieldGroup implements CustomSchema {
   use CustomizablePostMeta;
 
   protected $id = null;
-
-  protected $config = [];
-
+  
   protected $fields = [];
 
   function config($config)
