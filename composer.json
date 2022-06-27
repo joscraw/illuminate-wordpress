@@ -14,7 +14,7 @@
         "files": ["src/WordPress/functions.php"]
     },
     "require": {
-        "php": ">=5.6.4",
+        "php": "7.4.29",
         "illuminate/auth": "5.4.*",
         "illuminate/broadcasting": "5.4.*",
         "illuminate/bus": "5.4.*",
@@ -54,5 +54,10 @@
     },
     "autoload-dev": {
         "classmap": ["tests/"]
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }
